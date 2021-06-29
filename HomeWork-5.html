@@ -1,0 +1,59 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Документ без названия</title>
+
+  <style>
+    .class1 {
+      margin: 10px 10px 10px 10px;
+      animation: infinite tinRightOut 5s;
+    }
+
+    @keyframes tinRightOut {
+      0% {
+        opacity: 0;
+        transform: scale(1, 1) translateX(0%);
+      }
+      50% {
+        opacity: 1;
+        transform: scale(1.1, 1.1) translateX(50%);
+      }
+      100% {
+        opacity: 0;
+        transform: scale(1, 1) translateX(100%);
+
+      }
+    }
+    .element-rotate {
+      margin: 500px 500px 500px 500px;
+      width: 150px;
+      height: 150px;
+      animation: rotate 6s linear infinite;
+    }
+    @keyframes rotate {
+      100% {transform: rotate(360deg);
+      }
+    }
+
+
+    .eleven:hover {
+      transform: matrix(1.2, 0, 0.5, 1.2, 50, 0);
+    }
+
+
+  </style>
+
+</head>
+
+
+<body>
+<img src="https://www.logaster.com/blog/wp-content/uploads/2020/03/0127.png" alt="car" class="class1">
+<img src="https://m.buro247.ru/images/2019/11/1573894579103735.jpg" alt="Reebok" class="element-rotate class2">
+<img
+  src="https://img1.freepng.ru/20181122/gsa/kisspng-java-programming-language-selenium-computer-softwa-july-2-16-halab-4-dev-5bf7838406c688.9094089715429477160278.jpg"
+  alt="java" class="eleven">
+
+</body>
+
+</html>
